@@ -3246,7 +3246,7 @@ p {
 
 .bg-1 {
   height: 320px;
-  background-image: url("/images/home-1.jpg");
+  background-image: url("images/home-1.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
 
