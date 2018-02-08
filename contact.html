@@ -1,0 +1,261 @@
+<!doctype html>
+<html class="root-page" lang="en">
+<head>
+
+      <meta charset="utf-8" />
+
+
+      <meta name="viewport" content="width=device-width" />
+
+      <title>
+      </title>
+
+      <link rel="stylesheet" href="/style.css"/>
+
+
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client-events.js"></script>
+</head>
+<body>
+    <header role="banner">
+    <div  class="layout-site-header cf-component pull-cta-right">
+        <div class="container row">
+            <a href="/" class="brand-logo" data-tracking="site-header__logo">
+                <img class=" standard-logo" src="/images/nav-img.png" alt="" />
+                  <img class="mobile-logo" src="/images/nav-img.png" alt="" />
+            </a>
+
+
+                <div class="right-block">
+
+        <div class="hide-for-medium-down">
+            <a href="/">
+              Home
+          </a>
+          <a  href="/about">
+            About
+          </a>
+          <a href="/services">
+              Services
+          </a>
+          <a  href="/ownership">
+            Ownership
+          </a>
+          <a href="/contact">
+            Contact
+          </a>
+        </div>
+
+                </div>
+        </div>
+    </div>
+
+         <div class="sidenav">
+          <a class="closebtn close-nav">&times;</a>
+            <div class="mobile-menu-items">
+
+            <a href="/" class="sub-nav" >
+            Home
+            </a>
+            <a href="/About" class="sub-nav ">
+            About
+            </a>
+            <a href="/Services" class="sub-nav" >
+            Services
+            </a>
+            <a href="/Ownership" class="sub-nav ">
+            Ownership
+            </a>
+            <a href="/Contact" class="sub-nav" >
+            Contact
+            </a>
+
+            <a href="/contact" class="sub-nav"><button>Schedule an inspection</button></a>
+          </div>
+        </div>
+
+         <span class="hamburger-icon open-nav hide-for-large-up">&#9776;</span>
+
+
+
+    </header>
+
+  <main>
+
+
+<div  class="layout-2-column cf-component bg-lightgray ">
+    <div class="container">
+        <div class="column-wrapper">
+            <div data-equalizer data-equalizer-mq="medium-up" class="row">
+                <div
+                    class="all column-1 large-6 medium-12 white-boxes padding-bottom-none-small columns"
+                >
+                          <section data-equalizer-watch>
+        <img src="/images/kory-team.jpg" alt="" />
+        <div class="white-box">
+        <form id="contactform" action="https://www.enformed.io/g5mjxvfj" method="POST"class="form">
+
+            <label for="name" class="label">Your Name</label>
+            <br />
+            <input class="txt-area" type="text" name="name" />
+            <br />
+            <br />
+
+            <label for="email" class="label">Email Address</label>
+            <br />
+            <input type="email" name="_replyto" class="txt-area" />
+            <br />
+            <br />
+
+            <label for="phone" class="label">Phone Number</label>
+            <br />
+            <input class="txt-area" type="number" name="name" />
+            <br />
+            <br />
+
+            <label for="message" class="label">Message</label>
+            <br />
+            <textarea name="message" class="txt-area"></textarea>
+            <br />
+            <br />
+
+            <!-- <input type="text-area" name="message" class="input" style="height: 75px;"> -->
+            <input type="submit" value="Send" class="button" />
+
+            <input type="hidden" name="_subject" value="Website contact" />
+            <input type="hidden" name="_gotcha" />
+
+        </form>
+        </div>
+
+
+
+
+      </section>
+
+                </div>
+                <div
+                    class="all column-2 large-6 medium-12 grey-boxes padding-medium padding-bottom-none-small columns"
+                >
+                          <section>
+        <div class="padding-medium font-light">
+          <p class="margin-bottom-none color-lightgray">FOR ORDER & INQUIRIES PLEASE CALL:</p>
+          <h2 class="">801-699-7485</h2>
+          <p class="margin-bottom-none color-lightgray">OR YOU CAN VISIT US AT:</p>
+          <h2>HIGH MOUNTAIN HOME INSPECTIONS OGDEN, UT 84404</h2>
+          <p class="margin-bottom-none color-lightgray">OR EMAIL US AT:</p>
+          <a href="mailto:highmountainhomes@gmail.com" class="color-white"> <h2>highmountainhomes@gmail.com</h2></a>
+        </div>
+
+
+
+      </section>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+  </main>
+
+    <footer role="contentinfo">
+
+
+    <div  class="layout-6-column cf-component grey-boxes">
+        <div class="container">
+            <div class="column-wrapper">
+                <div data-equalizer class="row">
+                    <div
+                        class="all column-1 large-2 medium-12  columns"
+                    >
+                              <section class="text-center">
+            <img src="/images/nav-img.png" alt="" class="logo"/>
+
+          </section>
+
+                    </div>
+                    <div
+                        class="all column-2 large-2 medium-12  columns"
+                    >
+                              <section>
+            <p class="h4">Contact</p>
+                    <ul>
+              <li>High Mountain Home Inspections</li>
+              <li>Ogden, UT 84404</li>
+              <li>801-699-7485</li>
+              <li><a href="mailto:highmountainhomes@gmail.com">highmountainhomes@gmail.com</a></li>
+            </ul>
+
+          </section>
+
+                    </div>
+                    <div
+                        class="all column-3 large-2 medium-12  columns"
+                    >
+                              <section>
+            <p class="h4">DISCOUNTS</p>
+            <ul>
+              <li>Military Discount Coupon <a href="img/militarydiscount.jpg"><strong>CLICK HERE</strong></a></li>
+            </ul>
+
+          </section>
+
+                    </div>
+                    <div
+                        class="all column-4 large-2 medium-12  columns"
+                    >
+                              <section>
+            <p class="h4">Investment Property Disclosure </p>
+            <ul>
+              <li> Click to <a href="img/Landlord.pdf"><u>Download Agreement</u></a></li>
+            </ul>
+
+          </section>
+
+                    </div>
+                    <div
+                        class="all column-5 large-2 medium-12  columns"
+                    >
+                              <section>
+            <p class="h4">CERTIFICATIONS</p>
+
+            <img src="/images/internachi.png" alt="" />
+
+          </section>
+
+                    </div>
+                    <div
+                        class="all column-6 large-2 medium-12  columns"
+                    >
+                              <section>
+            <p class="h4">SOCIAL MEDIA</p>
+            <div class="flex icons">
+              <img src="/images/twitter.png" alt="" />
+              <img src="/images/facebook.png" alt="" />
+            </div>
+
+          </section>
+
+                    </div>
+                </div>
+            </div>
+                <div class="row">
+                    <div class="after  columns">
+
+                    </div>
+                </div>
+        </div>
+    </div>
+
+
+    </footer>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="/index.js"></script>
+</body>
+</html>
